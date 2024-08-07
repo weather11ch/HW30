@@ -13,7 +13,7 @@ namespace HW30.Models.Responses
         public required int per_page { get; set; }
         public required int total { get; set; }
         public required int total_pages { get; set; }
-        public required List<DataModel> data { get; set; }          
+        public required List<ListUsersDataModel> data { get; set; }          
         public required SupportModel support { get; set; }
     }
 

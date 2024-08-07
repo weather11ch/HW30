@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW30.Models.Responses
 {
-    internal class DataModel
+    internal class ListUsersDataModel
     {
         public required int id { get; set; }
         public required string email { get; set; }

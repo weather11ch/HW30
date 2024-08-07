@@ -103,7 +103,7 @@ namespace HW30
             // Проврерка данных
             Assert.That(modelResponse.Name, Is.EqualTo("morpheus"));
             Assert.That(modelResponse.Job, Is.EqualTo("zion resident"));
-           
+
         }
 
         [Test]
@@ -117,14 +117,14 @@ namespace HW30
             var response = clinet.Execute(request);
 
             // Парсинг JSON ответа
-            var jsonResponse = JObject.Parse(response.Content);
+            //var jsonResponse = JObject.Parse(response.Content);
 
             // Проверка статуса ответа
             Assert.That((int)response.StatusCode, Is.EqualTo(200), "Status code is not 200 OK");
 
             // Доступ к данным
-            var data = jsonResponse["data"];
-            var support = jsonResponse["support"];
+            //var data = jsonResponse["data"];
+            //var support = jsonResponse["support"];
 
             // Парсинг JSON ответа
             var modelResponse = JsonConvert.DeserializeObject<ListUsersResponse>(response.Content);
@@ -140,8 +140,54 @@ namespace HW30
             Assert.That(modelResponse.data[0].first_name, Is.EqualTo("Michael"));
             Assert.That(modelResponse.data[0].last_name, Is.EqualTo("Lawson"));
             Assert.That(modelResponse.data[0].avatar, Is.EqualTo("https://reqres.in/img/faces/7-image.jpg"));
-            
-        }
 
+        }
+        [Test]
+        public void GetUserNotFound()
+        {
+            // Создание запроса
+            var clinet = new RestClient(BaseUrl);
+            var request = new RestRequest("users/23", Method.Get);
+
+            // Выполнить запрос
+            var response = clinet.Execute(request);
+
+            // Парсинг JSON ответа
+            //var jsonResponse = JObject.Parse(response.Content);
+
+            // Проверка статуса ответа
+            Assert.That((int)response.StatusCode, Is.EqualTo(404), "Status code is not 404");
+
+        }
+        [Test]
+        public void GetListResource() 
+        {
+            // Создание запроса
+            var clinet = new RestClient(BaseUrl);
+            var request = new RestRequest("unknow", Method.Get);
+
+            // Выполнить запрос
+            var response = clinet.Execute(request);
+
+            // Парсинг JSON ответа
+            var jsonResponse = JObject.Parse(response.Content);
+
+            // Проверка статуса ответа
+            Assert.That((int)response.StatusCode, Is.EqualTo(200), "Status code is not 200");
+
+            // Парсинг JSON ответа
+            var modelResponse = JsonConvert.DeserializeObject<ListResourceResponse>(response.Content);
+
+            // Проврерка данных                      
+            Assert.That(modelResponse.page, Is.EqualTo(1));
+            Assert.That(modelResponse.per_page, Is.EqualTo(6));
+            Assert.That(modelResponse.total, Is.EqualTo(12));
+            Assert.That(modelResponse.total_pages, Is.EqualTo(2));
+            Assert.That(modelResponse.data[0].id, Is.EqualTo(1));
+            Assert.That(modelResponse.data[0].name, Is.EqualTo("cerulean"));
+            Assert.That(modelResponse.data[0].year, Is.EqualTo(2000));
+            Assert.That(modelResponse.data[0].color, Is.EqualTo("#98B2D1"));
+            Assert.That(modelResponse.data[0].pantone_value, Is.EqualTo("15-4020"));
+        }
     }
 }
