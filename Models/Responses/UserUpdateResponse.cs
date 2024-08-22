@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace HW30.Models.Responses
 {
-    internal class UserResponse
+    internal class UserUpdateResponse
     {
         public required string Name { get; set; }
         public required string Job { get; set; }
         public required int Id { get; set; }
-        public DateTime CreatedAt { get; set; }     
-
+        public DateTime UpdatedAt { get; set; }
     }
 }
