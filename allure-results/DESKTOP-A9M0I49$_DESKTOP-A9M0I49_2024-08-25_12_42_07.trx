@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="09802bca-6252-49d1-97e6-7946975cb76e" name="DESKTOP-A9M0I49$@DESKTOP-A9M0I49 2024-08-25 12:42:07" runUser="NT AUTHORITY\СИСТЕМА" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-08-25T12:42:07.2760683+03:00" queuing="2024-08-25T12:42:07.2760693+03:00" start="2024-08-25T12:42:04.8448656+03:00" finish="2024-08-25T12:42:09.1918454+03:00" />
+  <TestSettings name="default" id="b2435d73-ccaf-4618-9f84-bbf0badc1f8f">
+    <Deployment runDeploymentRoot="DESKTOP-A9M0I49$_DESKTOP-A9M0I49_2024-08-25_12_42_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="347ae601-dfa8-4dbc-8549-a355f163e323" testId="c1dec573-33e5-7f16-590d-66ad5c72e886" testName="GetUser" computerName="DESKTOP-A9M0I49" duration="00:00:00.1814210" startTime="2024-08-25T12:42:07.8112649+03:00" endTime="2024-08-25T12:42:07.9926811+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="347ae601-dfa8-4dbc-8549-a355f163e323" />
+    <UnitTestResult executionId="a034035c-56dd-4ce2-a37d-28684beb7549" testId="763475a6-066c-431c-44e9-8e41cbcdd3f1" testName="PutUpdateUser" computerName="DESKTOP-A9M0I49" duration="00:00:00.2099420" startTime="2024-08-25T12:42:08.8706347+03:00" endTime="2024-08-25T12:42:09.0805760+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a034035c-56dd-4ce2-a37d-28684beb7549" />
+    <UnitTestResult executionId="53d85184-601c-4600-849f-ea7a390ca94b" testId="22808add-9d49-0bb5-d3f2-10c387feee21" testName="GetUserNotFound" computerName="DESKTOP-A9M0I49" duration="00:00:00.2680730" startTime="2024-08-25T12:42:07.9928153+03:00" endTime="2024-08-25T12:42:08.2608884+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53d85184-601c-4600-849f-ea7a390ca94b" />
+    <UnitTestResult executionId="2407e631-00dd-4250-8fdf-6217ad950688" testId="dd2f4e85-3e3c-243e-2274-bb8a47f310ba" testName="PostRegisterSuccessful" computerName="DESKTOP-A9M0I49" duration="00:00:00.2906410" startTime="2024-08-25T12:42:08.5799538+03:00" endTime="2024-08-25T12:42:08.8705939+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2407e631-00dd-4250-8fdf-6217ad950688" />
+    <UnitTestResult executionId="8ab45f51-bf0d-42d8-beac-5702d62e784e" testId="1770daaa-94b4-198f-2ba5-1c1aa1c3d262" testName="GetListResource" computerName="DESKTOP-A9M0I49" duration="00:00:00.2430640" startTime="2024-08-25T12:42:07.3709172+03:00" endTime="2024-08-25T12:42:07.6139812+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ab45f51-bf0d-42d8-beac-5702d62e784e" />
+    <UnitTestResult executionId="c2d99873-3147-4492-84d7-fc103eabaf99" testId="9fb244f1-b182-8743-c22c-00f9f6e8a5ce" testName="DeleteUser" computerName="DESKTOP-A9M0I49" duration="00:00:00.2573680" startTime="2024-08-25T12:42:07.1132692+03:00" endTime="2024-08-25T12:42:07.3706314+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2d99873-3147-4492-84d7-fc103eabaf99" />
+    <UnitTestResult executionId="bed49a94-67ca-4065-8e80-5a442abba80b" testId="72d6d3e0-5739-7111-eaff-08ec5aa3d70e" testName="PathUpdateUser" computerName="DESKTOP-A9M0I49" duration="00:00:00.3189740" startTime="2024-08-25T12:42:08.2609529+03:00" endTime="2024-08-25T12:42:08.5799261+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bed49a94-67ca-4065-8e80-5a442abba80b" />
+    <UnitTestResult executionId="bbbd4108-188d-4356-afee-84e29d68b11e" testId="3168cb8d-9c92-cd78-92d2-fb0cc09cd5b4" testName="GetListUsers" computerName="DESKTOP-A9M0I49" duration="00:00:00.1971840" startTime="2024-08-25T12:42:07.6140182+03:00" endTime="2024-08-25T12:42:07.8111990+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbbd4108-188d-4356-afee-84e29d68b11e" />
+    <UnitTestResult executionId="6aefe7b2-09fa-4509-bb2a-7f9c4eb59151" testId="6c4054f3-d94f-6006-b2dc-8e66df21023b" testName="CreateUser" computerName="DESKTOP-A9M0I49" duration="00:00:01.0121940" startTime="2024-08-25T12:42:06.0991540+03:00" endTime="2024-08-25T12:42:07.1112359+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6aefe7b2-09fa-4509-bb2a-7f9c4eb59151" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DeleteUser" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="9fb244f1-b182-8743-c22c-00f9f6e8a5ce">
+      <Execution id="c2d99873-3147-4492-84d7-fc103eabaf99" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="DeleteUser" />
+    </UnitTest>
+    <UnitTest name="GetUser" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="c1dec573-33e5-7f16-590d-66ad5c72e886">
+      <Execution id="347ae601-dfa8-4dbc-8549-a355f163e323" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="GetUser" />
+    </UnitTest>
+    <UnitTest name="PutUpdateUser" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="763475a6-066c-431c-44e9-8e41cbcdd3f1">
+      <Execution id="a034035c-56dd-4ce2-a37d-28684beb7549" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="PutUpdateUser" />
+    </UnitTest>
+    <UnitTest name="GetUserNotFound" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="22808add-9d49-0bb5-d3f2-10c387feee21">
+      <Execution id="53d85184-601c-4600-849f-ea7a390ca94b" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="GetUserNotFound" />
+    </UnitTest>
+    <UnitTest name="PostRegisterSuccessful" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="dd2f4e85-3e3c-243e-2274-bb8a47f310ba">
+      <Execution id="2407e631-00dd-4250-8fdf-6217ad950688" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="PostRegisterSuccessful" />
+    </UnitTest>
+    <UnitTest name="GetListUsers" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="3168cb8d-9c92-cd78-92d2-fb0cc09cd5b4">
+      <Execution id="bbbd4108-188d-4356-afee-84e29d68b11e" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="GetListUsers" />
+    </UnitTest>
+    <UnitTest name="GetListResource" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="1770daaa-94b4-198f-2ba5-1c1aa1c3d262">
+      <Execution id="8ab45f51-bf0d-42d8-beac-5702d62e784e" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="GetListResource" />
+    </UnitTest>
+    <UnitTest name="CreateUser" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="6c4054f3-d94f-6006-b2dc-8e66df21023b">
+      <Execution id="6aefe7b2-09fa-4509-bb2a-7f9c4eb59151" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="CreateUser" />
+    </UnitTest>
+    <UnitTest name="PathUpdateUser" storage="c:\users\1\source\repos\hw30\bin\debug\net8.0\hw30.dll" id="72d6d3e0-5739-7111-eaff-08ec5aa3d70e">
+      <Execution id="bed49a94-67ca-4065-8e80-5a442abba80b" />
+      <TestMethod codeBase="C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll" adapterTypeName="executor://nunit3testexecutor/" className="HW30.Tests" name="PathUpdateUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c1dec573-33e5-7f16-590d-66ad5c72e886" executionId="347ae601-dfa8-4dbc-8549-a355f163e323" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="763475a6-066c-431c-44e9-8e41cbcdd3f1" executionId="a034035c-56dd-4ce2-a37d-28684beb7549" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22808add-9d49-0bb5-d3f2-10c387feee21" executionId="53d85184-601c-4600-849f-ea7a390ca94b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd2f4e85-3e3c-243e-2274-bb8a47f310ba" executionId="2407e631-00dd-4250-8fdf-6217ad950688" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1770daaa-94b4-198f-2ba5-1c1aa1c3d262" executionId="8ab45f51-bf0d-42d8-beac-5702d62e784e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fb244f1-b182-8743-c22c-00f9f6e8a5ce" executionId="c2d99873-3147-4492-84d7-fc103eabaf99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72d6d3e0-5739-7111-eaff-08ec5aa3d70e" executionId="bed49a94-67ca-4065-8e80-5a442abba80b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3168cb8d-9c92-cd78-92d2-fb0cc09cd5b4" executionId="bbbd4108-188d-4356-afee-84e29d68b11e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c4054f3-d94f-6006-b2dc-8e66df21023b" executionId="6aefe7b2-09fa-4509-bb2a-7f9c4eb59151" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in C:\Users\1\source\repos\HW30\bin\Debug\net8.0\HW30.dll&#xD;
+   NUnit3TestExecutor discovered 9 of 9 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -3,9 +3,11 @@ using HW30.Models.Responses;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using RestSharp;
+using NUnit.Allure.Core;
 
 namespace HW30
 {
+    [AllureNUnit]
     public class Tests
     {
         [SetUp]
