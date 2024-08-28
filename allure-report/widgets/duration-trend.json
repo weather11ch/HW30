@@ -1,1 +1,1 @@
-[{"buildOrder":1,"reportUrl":"http://localhost:8080/job/API%20Tests/1/allure","reportName":"AllureReport","data":{"duration":2981}}]
+[{"buildOrder":3,"reportUrl":"http://localhost:8080/job/API%20Tests/3/allure","reportName":"AllureReport","data":{"duration":290050055}},{"buildOrder":2,"reportUrl":"http://localhost:8080/job/API%20Tests/2/allure","reportName":"AllureReport","data":{"duration":289833404}},{"buildOrder":1,"reportUrl":"http://localhost:8080/job/API%20Tests/1/allure","reportName":"AllureReport","data":{"duration":2981}}]
